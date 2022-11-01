@@ -7,6 +7,6 @@ if($db){
 
 }
 else{
-    echo 'not connected';
+   die('stop the system'.mysqli_error());
 }
 ?>
