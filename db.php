@@ -7,6 +7,6 @@ if($db){
 
 }
 else{
-   die('stop the system'.mysqli_error());
+   die('stop the system'.mysqli_error($db));
 }
 ?>
